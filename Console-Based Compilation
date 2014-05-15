@@ -1,0 +1,23 @@
+lubo@lubo-VirtualBox:~$ cd workspace/Intro-Java-Homework/src
+
+lubo@lubo-VirtualBox:~/workspace/Intro-Java-Homework/src$ dir
+
+CurrentDateTime.java  SortArrayOfString.java
+
+PrintHometown.java    SumNumbers.java
+
+lubo@lubo-VirtualBox:~/workspace/Intro-Java-Homework/src$ javac SumNumbers.java
+
+lubo@lubo-VirtualBox:~/workspace/Intro-Java-Homework/src$ java SumNumbers
+
+Enter first number: 
+
+3
+
+Enter second number
+
+5
+
+The sum of the numbers is:8
+
+lubo@lubo-VirtualBox:~/workspace/Intro-Java-Homework/src$ 
