@@ -1,0 +1,25 @@
+import java.util.Scanner;
+import java.util.Arrays;
+
+import javax.print.DocFlavor.INPUT_STREAM;
+
+
+public class SortArrayOfString {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int n = sc.nextInt();
+		String[] allWordString = new String[n];
+		for (int i = 0; i < n; i++) {
+			allWordString[i] = sc.nextLine();
+			
+		}
+		Arrays.sort(allWordString);
+		sc.nextLine();
+		for (int i = 0; i < n; i++) {
+			System.out.println(allWordString[i]);
+		}
+
+	}
+
+}
